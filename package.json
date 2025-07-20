@@ -1,0 +1,32 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/genitr/js-pro-hw1.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Yura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/genitr/js-pro-hw1/issues"
+  },
+  "homepage": "https://github.com/genitr/js-pro-hw1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.0",
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@eslint/js": "^9.31.0",
+    "eslint": "^8.57.1",
+    "globals": "^16.3.0"
+  }
+}
